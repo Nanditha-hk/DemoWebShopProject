@@ -1,0 +1,1722 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\Nanditha HK\eclipse-workspace\DemoWebShop\batch.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>6 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">33 methods,   33 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShop.Wishlist.WishlistScript" class="method navigator-link" hash-for-method="addMultipleProductsToWishlist">addMultipleProductsToWishlist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShop.Logout.LogoutScript" class="method navigator-link" hash-for-method="browserBackAfterLogout">browserBackAfterLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShop.ShoppingCart.ShoppingCartScript" class="method navigator-link" hash-for-method="checkoutWithoutAcceptingTerms">checkoutWithoutAcceptingTerms</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShop.SignupLogin.SignupLoginScript" class="method navigator-link" hash-for-method="loginWithRememberMe">loginWithRememberMe</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShop.SignupLogin.SignupLoginScript" class="method navigator-link" hash-for-method="loginWithUnregisteredEmail">loginWithUnregisteredEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShop.Logout.LogoutScript" class="method navigator-link" hash-for-method="logoutAfterAddingProductToCart">logoutAfterAddingProductToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShop.SignupLogin.SignupLoginScript" class="method navigator-link" hash-for-method="registerWithBlankFields">registerWithBlankFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShop.SignupLogin.SignupLoginScript" class="method navigator-link" hash-for-method="registerWithInvalidEmail">registerWithInvalidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShop.ShoppingCart.ShoppingCartScript" class="method navigator-link" hash-for-method="removeProductFromCart">removeProductFromCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShop.Wishlist.WishlistScript" class="method navigator-link" hash-for-method="removeProductFromWishlist">removeProductFromWishlist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShop.Product.ProductScript" class="method navigator-link" hash-for-method="searchUsingCompleteProductName">searchUsingCompleteProductName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShop.Product.ProductScript" class="method navigator-link" hash-for-method="searchUsingValidKeyword">searchUsingValidKeyword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShop.ShoppingCart.ShoppingCartScript" class="method navigator-link" hash-for-method="updateProductQuantity">updateProductQuantity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShop.SignupLogin.SignupLoginScript" class="method navigator-link" hash-for-method="validRegistration">validRegistration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShop.Checkout.CheckoutScript" class="method navigator-link" hash-for-method="verifyBlankBilling">verifyBlankBilling</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShop.ShoppingCart.ShoppingCartScript" class="method navigator-link" hash-for-method="verifyCartPageOpens">verifyCartPageOpens</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShop.Checkout.CheckoutScript" class="method navigator-link" hash-for-method="verifyCheckoutOpens">verifyCheckoutOpens</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShop.Checkout.CheckoutScript" class="method navigator-link" hash-for-method="verifyCompleteCheckout">verifyCompleteCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShop.ShoppingCart.ShoppingCartScript" class="method navigator-link" hash-for-method="verifyEmptyCart">verifyEmptyCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShop.Product.ProductScript" class="method navigator-link" hash-for-method="verifyHomepageLoads">verifyHomepageLoads</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShop.Checkout.CheckoutScript" class="method navigator-link" hash-for-method="verifyInvalidEmail">verifyInvalidEmail</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShop.Logout.LogoutScript" class="method navigator-link" hash-for-method="verifyLoggedOutSession">verifyLoggedOutSession</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShop.SignupLogin.SignupLoginScript" class="method navigator-link" hash-for-method="verifyLoginPageOpens">verifyLoginPageOpens</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShop.Logout.LogoutScript" class="method navigator-link" hash-for-method="verifyLogoutLink">verifyLogoutLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShop.Product.ProductScript" class="method navigator-link" hash-for-method="verifyNegativeSearch">verifyNegativeSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShop.ShoppingCart.ShoppingCartScript" class="method navigator-link" hash-for-method="verifyProductAppearsInCart">verifyProductAppearsInCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShop.SignupLogin.SignupLoginScript" class="method navigator-link" hash-for-method="verifyRegisterPageOpens">verifyRegisterPageOpens</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShop.Product.ProductScript" class="method navigator-link" hash-for-method="verifySearchControls">verifySearchControls</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShop.Logout.LogoutScript" class="method navigator-link" hash-for-method="verifySessionEnds">verifySessionEnds</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShop.Checkout.CheckoutScript" class="method navigator-link" hash-for-method="verifyShippingMethod">verifyShippingMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShop.ShoppingCart.ShoppingCartScript" class="method navigator-link" hash-for-method="verifySubtotalAfterQuantityChange">verifySubtotalAfterQuantityChange</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShop.Checkout.CheckoutScript" class="method navigator-link" hash-for-method="verifyValidBilling">verifyValidBilling</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="DemoWebShop.Wishlist.WishlistScript" class="method navigator-link" hash-for-method="verifyWishlistWithoutLogin">verifyWishlistWithoutLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">DemoWebShop.Checkout.CheckoutScript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBlankBilling">
+                  </a> <!-- verifyBlankBilling -->
+                  <span class="method-name">verifyBlankBilling</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCheckoutOpens">
+                  </a> <!-- verifyCheckoutOpens -->
+                  <span class="method-name">verifyCheckoutOpens</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCompleteCheckout">
+                  </a> <!-- verifyCompleteCheckout -->
+                  <span class="method-name">verifyCompleteCheckout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvalidEmail">
+                  </a> <!-- verifyInvalidEmail -->
+                  <span class="method-name">verifyInvalidEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyShippingMethod">
+                  </a> <!-- verifyShippingMethod -->
+                  <span class="method-name">verifyShippingMethod</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyValidBilling">
+                  </a> <!-- verifyValidBilling -->
+                  <span class="method-name">verifyValidBilling</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">DemoWebShop.Product.ProductScript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchUsingCompleteProductName">
+                  </a> <!-- searchUsingCompleteProductName -->
+                  <span class="method-name">searchUsingCompleteProductName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchUsingValidKeyword">
+                  </a> <!-- searchUsingValidKeyword -->
+                  <span class="method-name">searchUsingValidKeyword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHomepageLoads">
+                  </a> <!-- verifyHomepageLoads -->
+                  <span class="method-name">verifyHomepageLoads</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNegativeSearch">
+                  </a> <!-- verifyNegativeSearch -->
+                  <span class="method-name">verifyNegativeSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchControls">
+                  </a> <!-- verifySearchControls -->
+                  <span class="method-name">verifySearchControls</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">DemoWebShop.ShoppingCart.ShoppingCartScript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutWithoutAcceptingTerms">
+                  </a> <!-- checkoutWithoutAcceptingTerms -->
+                  <span class="method-name">checkoutWithoutAcceptingTerms</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeProductFromCart">
+                  </a> <!-- removeProductFromCart -->
+                  <span class="method-name">removeProductFromCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateProductQuantity">
+                  </a> <!-- updateProductQuantity -->
+                  <span class="method-name">updateProductQuantity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCartPageOpens">
+                  </a> <!-- verifyCartPageOpens -->
+                  <span class="method-name">verifyCartPageOpens</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEmptyCart">
+                  </a> <!-- verifyEmptyCart -->
+                  <span class="method-name">verifyEmptyCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductAppearsInCart">
+                  </a> <!-- verifyProductAppearsInCart -->
+                  <span class="method-name">verifyProductAppearsInCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySubtotalAfterQuantityChange">
+                  </a> <!-- verifySubtotalAfterQuantityChange -->
+                  <span class="method-name">verifySubtotalAfterQuantityChange</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">DemoWebShop.SignupLogin.SignupLoginScript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithRememberMe">
+                  </a> <!-- loginWithRememberMe -->
+                  <span class="method-name">loginWithRememberMe</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithUnregisteredEmail">
+                  </a> <!-- loginWithUnregisteredEmail -->
+                  <span class="method-name">loginWithUnregisteredEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerWithBlankFields">
+                  </a> <!-- registerWithBlankFields -->
+                  <span class="method-name">registerWithBlankFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerWithInvalidEmail">
+                  </a> <!-- registerWithInvalidEmail -->
+                  <span class="method-name">registerWithInvalidEmail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validRegistration">
+                  </a> <!-- validRegistration -->
+                  <span class="method-name">validRegistration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginPageOpens">
+                  </a> <!-- verifyLoginPageOpens -->
+                  <span class="method-name">verifyLoginPageOpens</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisterPageOpens">
+                  </a> <!-- verifyRegisterPageOpens -->
+                  <span class="method-name">verifyRegisterPageOpens</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">DemoWebShop.Logout.LogoutScript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="browserBackAfterLogout">
+                  </a> <!-- browserBackAfterLogout -->
+                  <span class="method-name">browserBackAfterLogout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutAfterAddingProductToCart">
+                  </a> <!-- logoutAfterAddingProductToCart -->
+                  <span class="method-name">logoutAfterAddingProductToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoggedOutSession">
+                  </a> <!-- verifyLoggedOutSession -->
+                  <span class="method-name">verifyLoggedOutSession</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogoutLink">
+                  </a> <!-- verifyLogoutLink -->
+                  <span class="method-name">verifyLogoutLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySessionEnds">
+                  </a> <!-- verifySessionEnds -->
+                  <span class="method-name">verifySessionEnds</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">DemoWebShop.Wishlist.WishlistScript</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addMultipleProductsToWishlist">
+                  </a> <!-- addMultipleProductsToWishlist -->
+                  <span class="method-name">addMultipleProductsToWishlist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeProductFromWishlist">
+                  </a> <!-- removeProductFromWishlist -->
+                  <span class="method-name">removeProductFromWishlist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyWishlistWithoutLogin">
+                  </a> <!-- verifyWishlistWithoutLogin -->
+                  <span class="method-name">verifyWishlistWithoutLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Nanditha HK\eclipse-workspace\DemoWebShop\batch.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;DemoWebShop.SignupLogin.SignupLoginScript&quot;/&gt;
+      &lt;class name=&quot;DemoWebShop.Product.ProductScript&quot;/&gt;
+      &lt;class name=&quot;DemoWebShop.Wishlist.WishlistScript&quot;/&gt;
+      &lt;class name=&quot;DemoWebShop.ShoppingCart.ShoppingCartScript&quot;/&gt;
+      &lt;class name=&quot;DemoWebShop.Checkout.CheckoutScript&quot;/&gt;
+      &lt;class name=&quot;DemoWebShop.Logout.LogoutScript&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">functional</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">addMultipleProductsToWishlist</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkoutWithoutAcceptingTerms</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginWithRememberMe</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginWithUnregisteredEmail</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">registerWithBlankFields</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">registerWithInvalidEmail</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">removeProductFromCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">removeProductFromWishlist</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchUsingCompleteProductName</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">updateProductQuantity</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validRegistration</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyEmptyCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLoggedOutSession</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLogoutLink</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyNegativeSearch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyProductAppearsInCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifySearchControls</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyShippingMethod</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifySubtotalAfterQuantityChange</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">integration</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">logoutAfterAddingProductToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyCheckoutOpens</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">negative</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">browserBackAfterLogout</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyBlankBilling</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyInvalidEmail</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyNegativeSearch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifySessionEnds</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyWishlistWithoutLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">positive</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchUsingCompleteProductName</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchUsingValidKeyword</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyHomepageLoads</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifySearchControls</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">searchUsingValidKeyword</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyCartPageOpens</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyHomepageLoads</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyLoginPageOpens</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyRegisterPageOpens</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyValidBilling</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">system</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyCompleteCheckout</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(33);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyCompleteCheckout')
+data.setCell(0, 2, 'DemoWebShop.Checkout.CheckoutScript')
+data.setCell(0, 3, 23800);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyBlankBilling')
+data.setCell(1, 2, 'DemoWebShop.Checkout.CheckoutScript')
+data.setCell(1, 3, 21433);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'removeProductFromCart')
+data.setCell(2, 2, 'DemoWebShop.ShoppingCart.ShoppingCartScript')
+data.setCell(2, 3, 20602);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'logoutAfterAddingProductToCart')
+data.setCell(3, 2, 'DemoWebShop.Logout.LogoutScript')
+data.setCell(3, 3, 19673);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'updateProductQuantity')
+data.setCell(4, 2, 'DemoWebShop.ShoppingCart.ShoppingCartScript')
+data.setCell(4, 3, 17625);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyShippingMethod')
+data.setCell(5, 2, 'DemoWebShop.Checkout.CheckoutScript')
+data.setCell(5, 3, 16417);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyInvalidEmail')
+data.setCell(6, 2, 'DemoWebShop.Checkout.CheckoutScript')
+data.setCell(6, 3, 15087);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyCheckoutOpens')
+data.setCell(7, 2, 'DemoWebShop.Checkout.CheckoutScript')
+data.setCell(7, 3, 14286);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyValidBilling')
+data.setCell(8, 2, 'DemoWebShop.Checkout.CheckoutScript')
+data.setCell(8, 3, 14186);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkoutWithoutAcceptingTerms')
+data.setCell(9, 2, 'DemoWebShop.ShoppingCart.ShoppingCartScript')
+data.setCell(9, 3, 12280);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyEmptyCart')
+data.setCell(10, 2, 'DemoWebShop.ShoppingCart.ShoppingCartScript')
+data.setCell(10, 3, 9399);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'removeProductFromWishlist')
+data.setCell(11, 2, 'DemoWebShop.Wishlist.WishlistScript')
+data.setCell(11, 3, 8560);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifySubtotalAfterQuantityChange')
+data.setCell(12, 2, 'DemoWebShop.ShoppingCart.ShoppingCartScript')
+data.setCell(12, 3, 7013);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyLoggedOutSession')
+data.setCell(13, 2, 'DemoWebShop.Logout.LogoutScript')
+data.setCell(13, 3, 6449);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyProductAppearsInCart')
+data.setCell(14, 2, 'DemoWebShop.ShoppingCart.ShoppingCartScript')
+data.setCell(14, 3, 6390);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'addMultipleProductsToWishlist')
+data.setCell(15, 2, 'DemoWebShop.Wishlist.WishlistScript')
+data.setCell(15, 3, 5991);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'browserBackAfterLogout')
+data.setCell(16, 2, 'DemoWebShop.Logout.LogoutScript')
+data.setCell(16, 3, 5898);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyNegativeSearch')
+data.setCell(17, 2, 'DemoWebShop.Product.ProductScript')
+data.setCell(17, 3, 4183);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'validRegistration')
+data.setCell(18, 2, 'DemoWebShop.SignupLogin.SignupLoginScript')
+data.setCell(18, 3, 3950);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifySessionEnds')
+data.setCell(19, 2, 'DemoWebShop.Logout.LogoutScript')
+data.setCell(19, 3, 3722);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyWishlistWithoutLogin')
+data.setCell(20, 2, 'DemoWebShop.Wishlist.WishlistScript')
+data.setCell(20, 3, 2573);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyLogoutLink')
+data.setCell(21, 2, 'DemoWebShop.Logout.LogoutScript')
+data.setCell(21, 3, 1722);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'registerWithInvalidEmail')
+data.setCell(22, 2, 'DemoWebShop.SignupLogin.SignupLoginScript')
+data.setCell(22, 3, 1610);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'loginWithRememberMe')
+data.setCell(23, 2, 'DemoWebShop.SignupLogin.SignupLoginScript')
+data.setCell(23, 3, 1584);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'searchUsingCompleteProductName')
+data.setCell(24, 2, 'DemoWebShop.Product.ProductScript')
+data.setCell(24, 3, 1579);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'loginWithUnregisteredEmail')
+data.setCell(25, 2, 'DemoWebShop.SignupLogin.SignupLoginScript')
+data.setCell(25, 3, 1489);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'searchUsingValidKeyword')
+data.setCell(26, 2, 'DemoWebShop.Product.ProductScript')
+data.setCell(26, 3, 1214);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'registerWithBlankFields')
+data.setCell(27, 2, 'DemoWebShop.SignupLogin.SignupLoginScript')
+data.setCell(27, 3, 905);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verifyRegisterPageOpens')
+data.setCell(28, 2, 'DemoWebShop.SignupLogin.SignupLoginScript')
+data.setCell(28, 3, 666);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'verifyCartPageOpens')
+data.setCell(29, 2, 'DemoWebShop.ShoppingCart.ShoppingCartScript')
+data.setCell(29, 3, 659);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'verifyLoginPageOpens')
+data.setCell(30, 2, 'DemoWebShop.SignupLogin.SignupLoginScript')
+data.setCell(30, 3, 554);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'verifySearchControls')
+data.setCell(31, 2, 'DemoWebShop.Product.ProductScript')
+data.setCell(31, 3, 50);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'verifyHomepageLoads')
+data.setCell(32, 2, 'DemoWebShop.Product.ProductScript')
+data.setCell(32, 3, 12);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validRegistration</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Registration successful</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLoginPageOpens</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Login page opened</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">searchUsingValidKeyword</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Valid product search completed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addMultipleProductsToWishlist</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Both products added successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyBlankBilling</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">TC-CHK-06: Validation error displayed and screenshot captured</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyCompleteCheckout</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Thank You page displayed. Order placed successfully using COD.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">removeProductFromCart</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Login successful</span>
+                <span class="reporter-method-output">Product removed from cart successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkoutWithoutAcceptingTerms</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Login successful</span>
+                <span class="reporter-method-output">Checkout blocked without accepting terms</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifySessionEnds</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Login successful</span>
+                <span class="reporter-method-output">Account access blocked after logout</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">searchUsingCompleteProductName</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Complete product name search completed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">removeProductFromWishlist</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Product removed successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifySearchControls</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Search controls verification completed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyShippingMethod</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Saved billing and shipping addresses selected, and shipping method completed successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyValidBilling</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Saved billing address selected and checkout continued successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyRegisterPageOpens</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Register page opened</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">registerWithInvalidEmail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Invalid email validation displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyInvalidEmail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Invalid email validation error displayed and screenshot captured successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLoggedOutSession</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Login successful</span>
+                <span class="reporter-method-output">Logged-out session verified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginWithRememberMe</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Login with Remember Me successful</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyProductAppearsInCart</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Login successful</span>
+                <span class="reporter-method-output">Product displayed in cart successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginWithUnregisteredEmail</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Unregistered email validation displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyNegativeSearch</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Invalid product search completed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">browserBackAfterLogout</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Login successful</span>
+                <span class="reporter-method-output">Browser Back after logout verified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">updateProductQuantity</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Login successful</span>
+                <span class="reporter-method-output">Product quantity updated successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyWishlistWithoutLogin</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Wishlist opened without login</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyEmptyCart</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Login successful</span>
+                <span class="reporter-method-output">Cart is empty after removing all products</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">logoutAfterAddingProductToCart</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Login successful</span>
+                <span class="reporter-method-output">Logout after adding product verified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyCheckoutOpens</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Checkout page opened successfully with the saved John Smith billing address</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLogoutLink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Login successful</span>
+                <span class="reporter-method-output">Log out link displayed successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyCartPageOpens</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Shopping cart page opened successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifySubtotalAfterQuantityChange</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Login successful</span>
+                <span class="reporter-method-output">Subtotal after quantity change verified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">registerWithBlankFields</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Required-field validation displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyHomepageLoads</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Homepage verification completed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">20 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">DemoWebShop.Checkout.CheckoutScript</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">DemoWebShop.Product.ProductScript</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">DemoWebShop.ShoppingCart.ShoppingCartScript</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">DemoWebShop.Wishlist.WishlistScript</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">DemoWebShop.Logout.LogoutScript</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoWebShop.SignupLogin.SignupLoginScript</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">80 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">BaseClass(chrome)</span>
+                <span class="method-start">104 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisterPageOpens</span>
+                <span class="method-start">9393 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10068 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BaseClass(chrome)</span>
+                <span class="method-start">10221 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validRegistration</span>
+                <span class="method-start">14618 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18581 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BaseClass(chrome)</span>
+                <span class="method-start">18784 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registerWithBlankFields</span>
+                <span class="method-start">22219 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">23128 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BaseClass(chrome)</span>
+                <span class="method-start">23271 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registerWithInvalidEmail</span>
+                <span class="method-start">27074 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">28689 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BaseClass(chrome)</span>
+                <span class="method-start">28821 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginPageOpens</span>
+                <span class="method-start">32734 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33291 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BaseClass(chrome)</span>
+                <span class="method-start">33415 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWithRememberMe</span>
+                <span class="method-start">37514 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">39101 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BaseClass(chrome)</span>
+                <span class="method-start">39202 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWithUnregisteredEmail</span>
+                <span class="method-start">42555 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">44048 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">44154 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoWebShop.Product.ProductScript</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">44156 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">BaseClass(chrome)</span>
+                <span class="method-start">44159 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyHomepageLoads</span>
+                <span class="method-start">47585 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">47600 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BaseClass(chrome)</span>
+                <span class="method-start">47696 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchControls</span>
+                <span class="method-start">51156 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">51208 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BaseClass(chrome)</span>
+                <span class="method-start">51329 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchUsingValidKeyword</span>
+                <span class="method-start">55021 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">56238 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BaseClass(chrome)</span>
+                <span class="method-start">56338 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchUsingCompleteProductName</span>
+                <span class="method-start">59770 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">61351 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BaseClass(chrome)</span>
+                <span class="method-start">61459 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyNegativeSearch</span>
+                <span class="method-start">64933 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">69119 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">69344 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoWebShop.Wishlist.WishlistScript</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">69347 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">BaseClass(chrome)</span>
+                <span class="method-start">69347 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addMultipleProductsToWishlist</span>
+                <span class="method-start">73164 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">79157 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BaseClass(chrome)</span>
+                <span class="method-start">79313 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">removeProductFromWishlist</span>
+                <span class="method-start">82688 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">91251 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BaseClass(chrome)</span>
+                <span class="method-start">91465 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyWishlistWithoutLogin</span>
+                <span class="method-start">95139 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">97713 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">97822 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoWebShop.ShoppingCart.ShoppingCartScript</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">97823 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">BaseClass(chrome)</span>
+                <span class="method-start">97824 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCartPageOpens</span>
+                <span class="method-start">101444 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">102106 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BaseClass(chrome)</span>
+                <span class="method-start">102202 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductAppearsInCart</span>
+                <span class="method-start">105481 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">111873 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BaseClass(chrome)</span>
+                <span class="method-start">111991 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">updateProductQuantity</span>
+                <span class="method-start">116089 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">133717 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BaseClass(chrome)</span>
+                <span class="method-start">134647 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">removeProductFromCart</span>
+                <span class="method-start">138509 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">159115 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BaseClass(chrome)</span>
+                <span class="method-start">159265 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySubtotalAfterQuantityChange</span>
+                <span class="method-start">162756 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">169771 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BaseClass(chrome)</span>
+                <span class="method-start">169905 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyEmptyCart</span>
+                <span class="method-start">173357 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">182760 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BaseClass(chrome)</span>
+                <span class="method-start">182880 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkoutWithoutAcceptingTerms</span>
+                <span class="method-start">186427 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">198708 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">198827 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoWebShop.Checkout.CheckoutScript</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">198829 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">BaseClass(chrome)</span>
+                <span class="method-start">198830 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCheckoutOpens</span>
+                <span class="method-start">202302 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">216591 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BaseClass(chrome)</span>
+                <span class="method-start">217158 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyValidBilling</span>
+                <span class="method-start">220800 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">234990 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BaseClass(chrome)</span>
+                <span class="method-start">235836 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBlankBilling</span>
+                <span class="method-start">239271 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">260707 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BaseClass(chrome)</span>
+                <span class="method-start">260837 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyInvalidEmail</span>
+                <span class="method-start">264603 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">279693 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BaseClass(chrome)</span>
+                <span class="method-start">280384 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyShippingMethod</span>
+                <span class="method-start">284199 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">300620 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BaseClass(chrome)</span>
+                <span class="method-start">301169 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCompleteCheckout</span>
+                <span class="method-start">304668 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">328470 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">328621 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoWebShop.Logout.LogoutScript</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">328622 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">BaseClass(chrome)</span>
+                <span class="method-start">328623 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogoutLink</span>
+                <span class="method-start">332290 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">334014 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BaseClass(chrome)</span>
+                <span class="method-start">334132 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logoutAfterAddingProductToCart</span>
+                <span class="method-start">337512 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">357203 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BaseClass(chrome)</span>
+                <span class="method-start">357350 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoggedOutSession</span>
+                <span class="method-start">364069 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">370520 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BaseClass(chrome)</span>
+                <span class="method-start">370680 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySessionEnds</span>
+                <span class="method-start">373977 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">377700 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">BaseClass(chrome)</span>
+                <span class="method-start">377812 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">browserBackAfterLogout</span>
+                <span class="method-start">381905 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">387805 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoWebShop.SignupLogin.SignupLoginScript</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">387958 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoWebShop.Logout.LogoutScript</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">387958 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">DemoWebShop.SignupLogin.SignupLoginScript</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">388039 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

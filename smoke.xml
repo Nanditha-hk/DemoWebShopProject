@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="browser" value="chrome"/>
+  <groups>
+  <run>
+  <include name = "smoke"/>
+  </run>
+  </groups>
+    <classes>
+    <class name="DemoWebShop.SignupLogin.SignupLoginScript"/>
+    <class name="DemoWebShop.Product.ProductScript"/>
+    <class name="DemoWebShop.Wishlist.WishlistScript"/>
+    <class name="DemoWebShop.ShoppingCart.ShoppingCartScript"/>
+    <class name="DemoWebShop.Checkout.CheckoutScript"/>
+    <class name="DemoWebShop.Logout.LogoutScript"/>
+</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

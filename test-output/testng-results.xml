@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="33" passed="33" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Register page opened]]>
+    </line>
+    <line>
+      <![CDATA[Registration successful]]>
+    </line>
+    <line>
+      <![CDATA[Required-field validation displayed]]>
+    </line>
+    <line>
+      <![CDATA[Invalid email validation displayed]]>
+    </line>
+    <line>
+      <![CDATA[Login page opened]]>
+    </line>
+    <line>
+      <![CDATA[Login with Remember Me successful]]>
+    </line>
+    <line>
+      <![CDATA[Unregistered email validation displayed]]>
+    </line>
+    <line>
+      <![CDATA[Homepage verification completed]]>
+    </line>
+    <line>
+      <![CDATA[Search controls verification completed]]>
+    </line>
+    <line>
+      <![CDATA[Valid product search completed]]>
+    </line>
+    <line>
+      <![CDATA[Complete product name search completed]]>
+    </line>
+    <line>
+      <![CDATA[Invalid product search completed]]>
+    </line>
+    <line>
+      <![CDATA[Both products added successfully]]>
+    </line>
+    <line>
+      <![CDATA[Product removed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Wishlist opened without login]]>
+    </line>
+    <line>
+      <![CDATA[Shopping cart page opened successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login successful]]>
+    </line>
+    <line>
+      <![CDATA[Product displayed in cart successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login successful]]>
+    </line>
+    <line>
+      <![CDATA[Product quantity updated successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login successful]]>
+    </line>
+    <line>
+      <![CDATA[Product removed from cart successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login successful]]>
+    </line>
+    <line>
+      <![CDATA[Subtotal after quantity change verified]]>
+    </line>
+    <line>
+      <![CDATA[Login successful]]>
+    </line>
+    <line>
+      <![CDATA[Cart is empty after removing all products]]>
+    </line>
+    <line>
+      <![CDATA[Login successful]]>
+    </line>
+    <line>
+      <![CDATA[Checkout blocked without accepting terms]]>
+    </line>
+    <line>
+      <![CDATA[Checkout page opened successfully with the saved John Smith billing address]]>
+    </line>
+    <line>
+      <![CDATA[Saved billing address selected and checkout continued successfully]]>
+    </line>
+    <line>
+      <![CDATA[TC-CHK-06: Validation error displayed and screenshot captured]]>
+    </line>
+    <line>
+      <![CDATA[Invalid email validation error displayed and screenshot captured successfully]]>
+    </line>
+    <line>
+      <![CDATA[Saved billing and shipping addresses selected, and shipping method completed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Thank You page displayed. Order placed successfully using COD.]]>
+    </line>
+    <line>
+      <![CDATA[Login successful]]>
+    </line>
+    <line>
+      <![CDATA[Log out link displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login successful]]>
+    </line>
+    <line>
+      <![CDATA[Logout after adding product verified]]>
+    </line>
+    <line>
+      <![CDATA[Login successful]]>
+    </line>
+    <line>
+      <![CDATA[Logged-out session verified]]>
+    </line>
+    <line>
+      <![CDATA[Login successful]]>
+    </line>
+    <line>
+      <![CDATA[Account access blocked after logout]]>
+    </line>
+    <line>
+      <![CDATA[Login successful]]>
+    </line>
+    <line>
+      <![CDATA[Browser Back after logout verified]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-10-19T09:46:02 IST" name="Suite" finished-at="2026-10-19T09:52:30 IST" duration-ms="387930">
+    <groups>
+      <group name="negative">
+        <method signature="CheckoutScript.verifyBlankBilling()[pri:3, instance:DemoWebShop.Checkout.CheckoutScript@2aceadd4]" name="verifyBlankBilling" class="DemoWebShop.Checkout.CheckoutScript"/>
+        <method signature="WishlistScript.verifyWishlistWithoutLogin()[pri:3, instance:DemoWebShop.Wishlist.WishlistScript@7a8c8dcf]" name="verifyWishlistWithoutLogin" class="DemoWebShop.Wishlist.WishlistScript"/>
+        <method signature="CheckoutScript.verifyInvalidEmail()[pri:4, instance:DemoWebShop.Checkout.CheckoutScript@2aceadd4]" name="verifyInvalidEmail" class="DemoWebShop.Checkout.CheckoutScript"/>
+        <method signature="LogoutScript.verifySessionEnds()[pri:4, instance:DemoWebShop.Logout.LogoutScript@24aed80c]" name="verifySessionEnds" class="DemoWebShop.Logout.LogoutScript"/>
+        <method signature="LogoutScript.browserBackAfterLogout()[pri:5, instance:DemoWebShop.Logout.LogoutScript@24aed80c]" name="browserBackAfterLogout" class="DemoWebShop.Logout.LogoutScript"/>
+        <method signature="ProductScript.verifyNegativeSearch()[pri:5, instance:DemoWebShop.Product.ProductScript@5dda768f]" name="verifyNegativeSearch" class="DemoWebShop.Product.ProductScript"/>
+      </group> <!-- negative -->
+      <group name="functional">
+        <method signature="LogoutScript.verifyLogoutLink()[pri:1, instance:DemoWebShop.Logout.LogoutScript@24aed80c]" name="verifyLogoutLink" class="DemoWebShop.Logout.LogoutScript"/>
+        <method signature="WishlistScript.addMultipleProductsToWishlist()[pri:1, instance:DemoWebShop.Wishlist.WishlistScript@7a8c8dcf]" name="addMultipleProductsToWishlist" class="DemoWebShop.Wishlist.WishlistScript"/>
+        <method signature="ProductScript.verifySearchControls()[pri:2, instance:DemoWebShop.Product.ProductScript@5dda768f]" name="verifySearchControls" class="DemoWebShop.Product.ProductScript"/>
+        <method signature="ShoppingCartScript.verifyProductAppearsInCart()[pri:2, instance:DemoWebShop.ShoppingCart.ShoppingCartScript@24269709]" name="verifyProductAppearsInCart" class="DemoWebShop.ShoppingCart.ShoppingCartScript"/>
+        <method signature="SignupLoginScript.validRegistration()[pri:2, instance:DemoWebShop.SignupLogin.SignupLoginScript@49438269]" name="validRegistration" class="DemoWebShop.SignupLogin.SignupLoginScript"/>
+        <method signature="WishlistScript.removeProductFromWishlist()[pri:2, instance:DemoWebShop.Wishlist.WishlistScript@7a8c8dcf]" name="removeProductFromWishlist" class="DemoWebShop.Wishlist.WishlistScript"/>
+        <method signature="LogoutScript.verifyLoggedOutSession()[pri:3, instance:DemoWebShop.Logout.LogoutScript@24aed80c]" name="verifyLoggedOutSession" class="DemoWebShop.Logout.LogoutScript"/>
+        <method signature="ShoppingCartScript.updateProductQuantity()[pri:3, instance:DemoWebShop.ShoppingCart.ShoppingCartScript@24269709]" name="updateProductQuantity" class="DemoWebShop.ShoppingCart.ShoppingCartScript"/>
+        <method signature="SignupLoginScript.registerWithBlankFields()[pri:3, instance:DemoWebShop.SignupLogin.SignupLoginScript@49438269]" name="registerWithBlankFields" class="DemoWebShop.SignupLogin.SignupLoginScript"/>
+        <method signature="ProductScript.searchUsingCompleteProductName()[pri:4, instance:DemoWebShop.Product.ProductScript@5dda768f]" name="searchUsingCompleteProductName" class="DemoWebShop.Product.ProductScript"/>
+        <method signature="ShoppingCartScript.removeProductFromCart()[pri:4, instance:DemoWebShop.ShoppingCart.ShoppingCartScript@24269709]" name="removeProductFromCart" class="DemoWebShop.ShoppingCart.ShoppingCartScript"/>
+        <method signature="SignupLoginScript.registerWithInvalidEmail()[pri:4, instance:DemoWebShop.SignupLogin.SignupLoginScript@49438269]" name="registerWithInvalidEmail" class="DemoWebShop.SignupLogin.SignupLoginScript"/>
+        <method signature="CheckoutScript.verifyShippingMethod()[pri:5, instance:DemoWebShop.Checkout.CheckoutScript@2aceadd4]" name="verifyShippingMethod" class="DemoWebShop.Checkout.CheckoutScript"/>
+        <method signature="ProductScript.verifyNegativeSearch()[pri:5, instance:DemoWebShop.Product.ProductScript@5dda768f]" name="verifyNegativeSearch" class="DemoWebShop.Product.ProductScript"/>
+        <method signature="ShoppingCartScript.verifySubtotalAfterQuantityChange()[pri:5, instance:DemoWebShop.ShoppingCart.ShoppingCartScript@24269709]" name="verifySubtotalAfterQuantityChange" class="DemoWebShop.ShoppingCart.ShoppingCartScript"/>
+        <method signature="ShoppingCartScript.verifyEmptyCart()[pri:6, instance:DemoWebShop.ShoppingCart.ShoppingCartScript@24269709]" name="verifyEmptyCart" class="DemoWebShop.ShoppingCart.ShoppingCartScript"/>
+        <method signature="SignupLoginScript.loginWithRememberMe()[pri:6, instance:DemoWebShop.SignupLogin.SignupLoginScript@49438269]" name="loginWithRememberMe" class="DemoWebShop.SignupLogin.SignupLoginScript"/>
+        <method signature="ShoppingCartScript.checkoutWithoutAcceptingTerms()[pri:7, instance:DemoWebShop.ShoppingCart.ShoppingCartScript@24269709]" name="checkoutWithoutAcceptingTerms" class="DemoWebShop.ShoppingCart.ShoppingCartScript"/>
+        <method signature="SignupLoginScript.loginWithUnregisteredEmail()[pri:7, instance:DemoWebShop.SignupLogin.SignupLoginScript@49438269]" name="loginWithUnregisteredEmail" class="DemoWebShop.SignupLogin.SignupLoginScript"/>
+      </group> <!-- functional -->
+      <group name="system">
+        <method signature="CheckoutScript.verifyCompleteCheckout()[pri:6, instance:DemoWebShop.Checkout.CheckoutScript@2aceadd4]" name="verifyCompleteCheckout" class="DemoWebShop.Checkout.CheckoutScript"/>
+      </group> <!-- system -->
+      <group name="smoke">
+        <method signature="ProductScript.verifyHomepageLoads()[pri:1, instance:DemoWebShop.Product.ProductScript@5dda768f]" name="verifyHomepageLoads" class="DemoWebShop.Product.ProductScript"/>
+        <method signature="ShoppingCartScript.verifyCartPageOpens()[pri:1, instance:DemoWebShop.ShoppingCart.ShoppingCartScript@24269709]" name="verifyCartPageOpens" class="DemoWebShop.ShoppingCart.ShoppingCartScript"/>
+        <method signature="SignupLoginScript.verifyRegisterPageOpens()[pri:1, instance:DemoWebShop.SignupLogin.SignupLoginScript@49438269]" name="verifyRegisterPageOpens" class="DemoWebShop.SignupLogin.SignupLoginScript"/>
+        <method signature="CheckoutScript.verifyValidBilling()[pri:2, instance:DemoWebShop.Checkout.CheckoutScript@2aceadd4]" name="verifyValidBilling" class="DemoWebShop.Checkout.CheckoutScript"/>
+        <method signature="ProductScript.searchUsingValidKeyword()[pri:3, instance:DemoWebShop.Product.ProductScript@5dda768f]" name="searchUsingValidKeyword" class="DemoWebShop.Product.ProductScript"/>
+        <method signature="SignupLoginScript.verifyLoginPageOpens()[pri:5, instance:DemoWebShop.SignupLogin.SignupLoginScript@49438269]" name="verifyLoginPageOpens" class="DemoWebShop.SignupLogin.SignupLoginScript"/>
+      </group> <!-- smoke -->
+      <group name="integration">
+        <method signature="CheckoutScript.verifyCheckoutOpens()[pri:1, instance:DemoWebShop.Checkout.CheckoutScript@2aceadd4]" name="verifyCheckoutOpens" class="DemoWebShop.Checkout.CheckoutScript"/>
+        <method signature="LogoutScript.logoutAfterAddingProductToCart()[pri:2, instance:DemoWebShop.Logout.LogoutScript@24aed80c]" name="logoutAfterAddingProductToCart" class="DemoWebShop.Logout.LogoutScript"/>
+      </group> <!-- integration -->
+      <group name="positive">
+        <method signature="ProductScript.verifyHomepageLoads()[pri:1, instance:DemoWebShop.Product.ProductScript@5dda768f]" name="verifyHomepageLoads" class="DemoWebShop.Product.ProductScript"/>
+        <method signature="ProductScript.verifySearchControls()[pri:2, instance:DemoWebShop.Product.ProductScript@5dda768f]" name="verifySearchControls" class="DemoWebShop.Product.ProductScript"/>
+        <method signature="ProductScript.searchUsingValidKeyword()[pri:3, instance:DemoWebShop.Product.ProductScript@5dda768f]" name="searchUsingValidKeyword" class="DemoWebShop.Product.ProductScript"/>
+        <method signature="ProductScript.searchUsingCompleteProductName()[pri:4, instance:DemoWebShop.Product.ProductScript@5dda768f]" name="searchUsingCompleteProductName" class="DemoWebShop.Product.ProductScript"/>
+      </group> <!-- positive -->
+    </groups>
+    <test started-at="2026-10-19T09:46:02 IST" name="Test" finished-at="2026-10-19T09:52:30 IST" duration-ms="387930">
+      <class name="DemoWebShop.ShoppingCart.ShoppingCartScript">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:DemoWebShop.ShoppingCart.ShoppingCartScript@24269709]" started-at="2026-10-19T09:47:40 IST" name="beforeClass" finished-at="2026-10-19T09:47:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="BaseClass(java.lang.String)[pri:0, instance:DemoWebShop.ShoppingCart.ShoppingCartScript@24269709]" started-at="2026-10-19T09:47:40 IST" name="BaseClass" finished-at="2026-10-19T09:47:43 IST" duration-ms="3620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method signature="verifyCartPageOpens()[pri:1, instance:DemoWebShop.ShoppingCart.ShoppingCartScript@24269709]" started-at="2026-10-19T09:47:43 IST" name="verifyCartPageOpens" finished-at="2026-10-19T09:47:44 IST" duration-ms="659" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Shopping cart page opened successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCartPageOpens -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.ShoppingCart.ShoppingCartScript@24269709]" started-at="2026-10-19T09:47:44 IST" name="tearDown" finished-at="2026-10-19T09:47:44 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="BaseClass(java.lang.String)[pri:0, instance:DemoWebShop.ShoppingCart.ShoppingCartScript@24269709]" started-at="2026-10-19T09:47:44 IST" name="BaseClass" finished-at="2026-10-19T09:47:47 IST" duration-ms="3279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method signature="verifyProductAppearsInCart()[pri:2, instance:DemoWebShop.ShoppingCart.ShoppingCartScript@24269709]" started-at="2026-10-19T09:47:47 IST" name="verifyProductAppearsInCart" finished-at="2026-10-19T09:47:54 IST" duration-ms="6390" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful]]>
+            </line>
+            <line>
+              <![CDATA[Product displayed in cart successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyProductAppearsInCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.ShoppingCart.ShoppingCartScript@24269709]" started-at="2026-10-19T09:47:54 IST" name="tearDown" finished-at="2026-10-19T09:47:54 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="BaseClass(java.lang.String)[pri:0, instance:DemoWebShop.ShoppingCart.ShoppingCartScript@24269709]" started-at="2026-10-19T09:47:54 IST" name="BaseClass" finished-at="2026-10-19T09:47:58 IST" duration-ms="4098" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method signature="updateProductQuantity()[pri:3, instance:DemoWebShop.ShoppingCart.ShoppingCartScript@24269709]" started-at="2026-10-19T09:47:58 IST" name="updateProductQuantity" finished-at="2026-10-19T09:48:16 IST" duration-ms="17625" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful]]>
+            </line>
+            <line>
+              <![CDATA[Product quantity updated successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- updateProductQuantity -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.ShoppingCart.ShoppingCartScript@24269709]" started-at="2026-10-19T09:48:16 IST" name="tearDown" finished-at="2026-10-19T09:48:17 IST" duration-ms="927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="BaseClass(java.lang.String)[pri:0, instance:DemoWebShop.ShoppingCart.ShoppingCartScript@24269709]" started-at="2026-10-19T09:48:17 IST" name="BaseClass" finished-at="2026-10-19T09:48:20 IST" duration-ms="3862" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method signature="removeProductFromCart()[pri:4, instance:DemoWebShop.ShoppingCart.ShoppingCartScript@24269709]" started-at="2026-10-19T09:48:20 IST" name="removeProductFromCart" finished-at="2026-10-19T09:48:41 IST" duration-ms="20602" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful]]>
+            </line>
+            <line>
+              <![CDATA[Product removed from cart successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- removeProductFromCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.ShoppingCart.ShoppingCartScript@24269709]" started-at="2026-10-19T09:48:41 IST" name="tearDown" finished-at="2026-10-19T09:48:41 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="BaseClass(java.lang.String)[pri:0, instance:DemoWebShop.ShoppingCart.ShoppingCartScript@24269709]" started-at="2026-10-19T09:48:41 IST" name="BaseClass" finished-at="2026-10-19T09:48:45 IST" duration-ms="3490" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method signature="verifySubtotalAfterQuantityChange()[pri:5, instance:DemoWebShop.ShoppingCart.ShoppingCartScript@24269709]" started-at="2026-10-19T09:48:45 IST" name="verifySubtotalAfterQuantityChange" finished-at="2026-10-19T09:48:52 IST" duration-ms="7013" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful]]>
+            </line>
+            <line>
+              <![CDATA[Subtotal after quantity change verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySubtotalAfterQuantityChange -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.ShoppingCart.ShoppingCartScript@24269709]" started-at="2026-10-19T09:48:52 IST" name="tearDown" finished-at="2026-10-19T09:48:52 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="BaseClass(java.lang.String)[pri:0, instance:DemoWebShop.ShoppingCart.ShoppingCartScript@24269709]" started-at="2026-10-19T09:48:52 IST" name="BaseClass" finished-at="2026-10-19T09:48:55 IST" duration-ms="3451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method signature="verifyEmptyCart()[pri:6, instance:DemoWebShop.ShoppingCart.ShoppingCartScript@24269709]" started-at="2026-10-19T09:48:55 IST" name="verifyEmptyCart" finished-at="2026-10-19T09:49:05 IST" duration-ms="9399" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful]]>
+            </line>
+            <line>
+              <![CDATA[Cart is empty after removing all products]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.ShoppingCart.ShoppingCartScript@24269709]" started-at="2026-10-19T09:49:05 IST" name="tearDown" finished-at="2026-10-19T09:49:05 IST" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="BaseClass(java.lang.String)[pri:0, instance:DemoWebShop.ShoppingCart.ShoppingCartScript@24269709]" started-at="2026-10-19T09:49:05 IST" name="BaseClass" finished-at="2026-10-19T09:49:08 IST" duration-ms="3546" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method signature="checkoutWithoutAcceptingTerms()[pri:7, instance:DemoWebShop.ShoppingCart.ShoppingCartScript@24269709]" started-at="2026-10-19T09:49:08 IST" name="checkoutWithoutAcceptingTerms" finished-at="2026-10-19T09:49:21 IST" duration-ms="12280" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful]]>
+            </line>
+            <line>
+              <![CDATA[Checkout blocked without accepting terms]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkoutWithoutAcceptingTerms -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.ShoppingCart.ShoppingCartScript@24269709]" started-at="2026-10-19T09:49:21 IST" name="tearDown" finished-at="2026-10-19T09:49:21 IST" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:DemoWebShop.ShoppingCart.ShoppingCartScript@24269709]" started-at="2026-10-19T09:49:21 IST" name="afterClass" finished-at="2026-10-19T09:49:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- DemoWebShop.ShoppingCart.ShoppingCartScript -->
+      <class name="DemoWebShop.Wishlist.WishlistScript">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:DemoWebShop.Wishlist.WishlistScript@7a8c8dcf]" started-at="2026-10-19T09:47:11 IST" name="beforeClass" finished-at="2026-10-19T09:47:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="BaseClass(java.lang.String)[pri:0, instance:DemoWebShop.Wishlist.WishlistScript@7a8c8dcf]" started-at="2026-10-19T09:47:11 IST" name="BaseClass" finished-at="2026-10-19T09:47:15 IST" duration-ms="3817" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method signature="addMultipleProductsToWishlist()[pri:1, instance:DemoWebShop.Wishlist.WishlistScript@7a8c8dcf]" started-at="2026-10-19T09:47:15 IST" name="addMultipleProductsToWishlist" finished-at="2026-10-19T09:47:21 IST" duration-ms="5991" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Both products added successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addMultipleProductsToWishlist -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.Wishlist.WishlistScript@7a8c8dcf]" started-at="2026-10-19T09:47:21 IST" name="tearDown" finished-at="2026-10-19T09:47:21 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="BaseClass(java.lang.String)[pri:0, instance:DemoWebShop.Wishlist.WishlistScript@7a8c8dcf]" started-at="2026-10-19T09:47:21 IST" name="BaseClass" finished-at="2026-10-19T09:47:25 IST" duration-ms="3373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method signature="removeProductFromWishlist()[pri:2, instance:DemoWebShop.Wishlist.WishlistScript@7a8c8dcf]" started-at="2026-10-19T09:47:25 IST" name="removeProductFromWishlist" finished-at="2026-10-19T09:47:33 IST" duration-ms="8560" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Product removed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- removeProductFromWishlist -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.Wishlist.WishlistScript@7a8c8dcf]" started-at="2026-10-19T09:47:33 IST" name="tearDown" finished-at="2026-10-19T09:47:33 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="BaseClass(java.lang.String)[pri:0, instance:DemoWebShop.Wishlist.WishlistScript@7a8c8dcf]" started-at="2026-10-19T09:47:33 IST" name="BaseClass" finished-at="2026-10-19T09:47:37 IST" duration-ms="3674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method signature="verifyWishlistWithoutLogin()[pri:3, instance:DemoWebShop.Wishlist.WishlistScript@7a8c8dcf]" started-at="2026-10-19T09:47:37 IST" name="verifyWishlistWithoutLogin" finished-at="2026-10-19T09:47:40 IST" duration-ms="2573" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Wishlist opened without login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyWishlistWithoutLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.Wishlist.WishlistScript@7a8c8dcf]" started-at="2026-10-19T09:47:40 IST" name="tearDown" finished-at="2026-10-19T09:47:40 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:DemoWebShop.Wishlist.WishlistScript@7a8c8dcf]" started-at="2026-10-19T09:47:40 IST" name="afterClass" finished-at="2026-10-19T09:47:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- DemoWebShop.Wishlist.WishlistScript -->
+      <class name="DemoWebShop.Product.ProductScript">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:DemoWebShop.Product.ProductScript@5dda768f]" started-at="2026-10-19T09:46:46 IST" name="beforeClass" finished-at="2026-10-19T09:46:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="BaseClass(java.lang.String)[pri:0, instance:DemoWebShop.Product.ProductScript@5dda768f]" started-at="2026-10-19T09:46:46 IST" name="BaseClass" finished-at="2026-10-19T09:46:50 IST" duration-ms="3425" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method signature="verifyHomepageLoads()[pri:1, instance:DemoWebShop.Product.ProductScript@5dda768f]" started-at="2026-10-19T09:46:50 IST" name="verifyHomepageLoads" finished-at="2026-10-19T09:46:50 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Homepage verification completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyHomepageLoads -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.Product.ProductScript@5dda768f]" started-at="2026-10-19T09:46:50 IST" name="tearDown" finished-at="2026-10-19T09:46:50 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="BaseClass(java.lang.String)[pri:0, instance:DemoWebShop.Product.ProductScript@5dda768f]" started-at="2026-10-19T09:46:50 IST" name="BaseClass" finished-at="2026-10-19T09:46:53 IST" duration-ms="3459" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method signature="verifySearchControls()[pri:2, instance:DemoWebShop.Product.ProductScript@5dda768f]" started-at="2026-10-19T09:46:53 IST" name="verifySearchControls" finished-at="2026-10-19T09:46:53 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Search controls verification completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySearchControls -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.Product.ProductScript@5dda768f]" started-at="2026-10-19T09:46:53 IST" name="tearDown" finished-at="2026-10-19T09:46:53 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="BaseClass(java.lang.String)[pri:0, instance:DemoWebShop.Product.ProductScript@5dda768f]" started-at="2026-10-19T09:46:53 IST" name="BaseClass" finished-at="2026-10-19T09:46:57 IST" duration-ms="3691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method signature="searchUsingValidKeyword()[pri:3, instance:DemoWebShop.Product.ProductScript@5dda768f]" started-at="2026-10-19T09:46:57 IST" name="searchUsingValidKeyword" finished-at="2026-10-19T09:46:58 IST" duration-ms="1214" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Valid product search completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchUsingValidKeyword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.Product.ProductScript@5dda768f]" started-at="2026-10-19T09:46:58 IST" name="tearDown" finished-at="2026-10-19T09:46:58 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="BaseClass(java.lang.String)[pri:0, instance:DemoWebShop.Product.ProductScript@5dda768f]" started-at="2026-10-19T09:46:58 IST" name="BaseClass" finished-at="2026-10-19T09:47:02 IST" duration-ms="3431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method signature="searchUsingCompleteProductName()[pri:4, instance:DemoWebShop.Product.ProductScript@5dda768f]" started-at="2026-10-19T09:47:02 IST" name="searchUsingCompleteProductName" finished-at="2026-10-19T09:47:03 IST" duration-ms="1579" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Complete product name search completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchUsingCompleteProductName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.Product.ProductScript@5dda768f]" started-at="2026-10-19T09:47:03 IST" name="tearDown" finished-at="2026-10-19T09:47:03 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="BaseClass(java.lang.String)[pri:0, instance:DemoWebShop.Product.ProductScript@5dda768f]" started-at="2026-10-19T09:47:03 IST" name="BaseClass" finished-at="2026-10-19T09:47:07 IST" duration-ms="3473" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method signature="verifyNegativeSearch()[pri:5, instance:DemoWebShop.Product.ProductScript@5dda768f]" started-at="2026-10-19T09:47:07 IST" name="verifyNegativeSearch" finished-at="2026-10-19T09:47:11 IST" duration-ms="4183" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid product search completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyNegativeSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.Product.ProductScript@5dda768f]" started-at="2026-10-19T09:47:11 IST" name="tearDown" finished-at="2026-10-19T09:47:11 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:DemoWebShop.Product.ProductScript@5dda768f]" started-at="2026-10-19T09:47:11 IST" name="afterClass" finished-at="2026-10-19T09:47:11 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- DemoWebShop.Product.ProductScript -->
+      <class name="DemoWebShop.Logout.LogoutScript">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:DemoWebShop.Logout.LogoutScript@24aed80c]" started-at="2026-10-19T09:51:31 IST" name="beforeClass" finished-at="2026-10-19T09:51:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="BaseClass(java.lang.String)[pri:0, instance:DemoWebShop.Logout.LogoutScript@24aed80c]" started-at="2026-10-19T09:51:31 IST" name="BaseClass" finished-at="2026-10-19T09:51:34 IST" duration-ms="3665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method signature="verifyLogoutLink()[pri:1, instance:DemoWebShop.Logout.LogoutScript@24aed80c]" started-at="2026-10-19T09:51:34 IST" name="verifyLogoutLink" finished-at="2026-10-19T09:51:36 IST" duration-ms="1722" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful]]>
+            </line>
+            <line>
+              <![CDATA[Log out link displayed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.Logout.LogoutScript@24aed80c]" started-at="2026-10-19T09:51:36 IST" name="tearDown" finished-at="2026-10-19T09:51:36 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="BaseClass(java.lang.String)[pri:0, instance:DemoWebShop.Logout.LogoutScript@24aed80c]" started-at="2026-10-19T09:51:36 IST" name="BaseClass" finished-at="2026-10-19T09:51:39 IST" duration-ms="3380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method signature="logoutAfterAddingProductToCart()[pri:2, instance:DemoWebShop.Logout.LogoutScript@24aed80c]" started-at="2026-10-19T09:51:39 IST" name="logoutAfterAddingProductToCart" finished-at="2026-10-19T09:51:59 IST" duration-ms="19673" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful]]>
+            </line>
+            <line>
+              <![CDATA[Logout after adding product verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logoutAfterAddingProductToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.Logout.LogoutScript@24aed80c]" started-at="2026-10-19T09:51:59 IST" name="tearDown" finished-at="2026-10-19T09:51:59 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="BaseClass(java.lang.String)[pri:0, instance:DemoWebShop.Logout.LogoutScript@24aed80c]" started-at="2026-10-19T09:51:59 IST" name="BaseClass" finished-at="2026-10-19T09:52:06 IST" duration-ms="6719" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method signature="verifyLoggedOutSession()[pri:3, instance:DemoWebShop.Logout.LogoutScript@24aed80c]" started-at="2026-10-19T09:52:06 IST" name="verifyLoggedOutSession" finished-at="2026-10-19T09:52:12 IST" duration-ms="6449" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful]]>
+            </line>
+            <line>
+              <![CDATA[Logged-out session verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoggedOutSession -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.Logout.LogoutScript@24aed80c]" started-at="2026-10-19T09:52:12 IST" name="tearDown" finished-at="2026-10-19T09:52:13 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="BaseClass(java.lang.String)[pri:0, instance:DemoWebShop.Logout.LogoutScript@24aed80c]" started-at="2026-10-19T09:52:13 IST" name="BaseClass" finished-at="2026-10-19T09:52:16 IST" duration-ms="3297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method signature="verifySessionEnds()[pri:4, instance:DemoWebShop.Logout.LogoutScript@24aed80c]" started-at="2026-10-19T09:52:16 IST" name="verifySessionEnds" finished-at="2026-10-19T09:52:20 IST" duration-ms="3722" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful]]>
+            </line>
+            <line>
+              <![CDATA[Account access blocked after logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySessionEnds -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.Logout.LogoutScript@24aed80c]" started-at="2026-10-19T09:52:20 IST" name="tearDown" finished-at="2026-10-19T09:52:20 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="BaseClass(java.lang.String)[pri:0, instance:DemoWebShop.Logout.LogoutScript@24aed80c]" started-at="2026-10-19T09:52:20 IST" name="BaseClass" finished-at="2026-10-19T09:52:24 IST" duration-ms="4093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method signature="browserBackAfterLogout()[pri:5, instance:DemoWebShop.Logout.LogoutScript@24aed80c]" started-at="2026-10-19T09:52:24 IST" name="browserBackAfterLogout" finished-at="2026-10-19T09:52:30 IST" duration-ms="5898" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful]]>
+            </line>
+            <line>
+              <![CDATA[Browser Back after logout verified]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserBackAfterLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.Logout.LogoutScript@24aed80c]" started-at="2026-10-19T09:52:30 IST" name="tearDown" finished-at="2026-10-19T09:52:30 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:DemoWebShop.Logout.LogoutScript@24aed80c]" started-at="2026-10-19T09:52:30 IST" name="afterClass" finished-at="2026-10-19T09:52:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- DemoWebShop.Logout.LogoutScript -->
+      <class name="DemoWebShop.Checkout.CheckoutScript">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:DemoWebShop.Checkout.CheckoutScript@2aceadd4]" started-at="2026-10-19T09:49:21 IST" name="beforeClass" finished-at="2026-10-19T09:49:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="BaseClass(java.lang.String)[pri:0, instance:DemoWebShop.Checkout.CheckoutScript@2aceadd4]" started-at="2026-10-19T09:49:21 IST" name="BaseClass" finished-at="2026-10-19T09:49:24 IST" duration-ms="3472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method signature="verifyCheckoutOpens()[pri:1, instance:DemoWebShop.Checkout.CheckoutScript@2aceadd4]" started-at="2026-10-19T09:49:24 IST" name="verifyCheckoutOpens" finished-at="2026-10-19T09:49:39 IST" duration-ms="14286" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Checkout page opened successfully with the saved John Smith billing address]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutOpens -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.Checkout.CheckoutScript@2aceadd4]" started-at="2026-10-19T09:49:39 IST" name="tearDown" finished-at="2026-10-19T09:49:39 IST" duration-ms="565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="BaseClass(java.lang.String)[pri:0, instance:DemoWebShop.Checkout.CheckoutScript@2aceadd4]" started-at="2026-10-19T09:49:39 IST" name="BaseClass" finished-at="2026-10-19T09:49:43 IST" duration-ms="3642" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method signature="verifyValidBilling()[pri:2, instance:DemoWebShop.Checkout.CheckoutScript@2aceadd4]" started-at="2026-10-19T09:49:43 IST" name="verifyValidBilling" finished-at="2026-10-19T09:49:57 IST" duration-ms="14186" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Saved billing address selected and checkout continued successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyValidBilling -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.Checkout.CheckoutScript@2aceadd4]" started-at="2026-10-19T09:49:57 IST" name="tearDown" finished-at="2026-10-19T09:49:58 IST" duration-ms="845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="BaseClass(java.lang.String)[pri:0, instance:DemoWebShop.Checkout.CheckoutScript@2aceadd4]" started-at="2026-10-19T09:49:58 IST" name="BaseClass" finished-at="2026-10-19T09:50:01 IST" duration-ms="3435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method signature="verifyBlankBilling()[pri:3, instance:DemoWebShop.Checkout.CheckoutScript@2aceadd4]" started-at="2026-10-19T09:50:01 IST" name="verifyBlankBilling" finished-at="2026-10-19T09:50:23 IST" duration-ms="21433" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC-CHK-06: Validation error displayed and screenshot captured]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyBlankBilling -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.Checkout.CheckoutScript@2aceadd4]" started-at="2026-10-19T09:50:23 IST" name="tearDown" finished-at="2026-10-19T09:50:23 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="BaseClass(java.lang.String)[pri:0, instance:DemoWebShop.Checkout.CheckoutScript@2aceadd4]" started-at="2026-10-19T09:50:23 IST" name="BaseClass" finished-at="2026-10-19T09:50:27 IST" duration-ms="3764" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method signature="verifyInvalidEmail()[pri:4, instance:DemoWebShop.Checkout.CheckoutScript@2aceadd4]" started-at="2026-10-19T09:50:27 IST" name="verifyInvalidEmail" finished-at="2026-10-19T09:50:42 IST" duration-ms="15087" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid email validation error displayed and screenshot captured successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.Checkout.CheckoutScript@2aceadd4]" started-at="2026-10-19T09:50:42 IST" name="tearDown" finished-at="2026-10-19T09:50:42 IST" duration-ms="689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="BaseClass(java.lang.String)[pri:0, instance:DemoWebShop.Checkout.CheckoutScript@2aceadd4]" started-at="2026-10-19T09:50:42 IST" name="BaseClass" finished-at="2026-10-19T09:50:46 IST" duration-ms="3814" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method signature="verifyShippingMethod()[pri:5, instance:DemoWebShop.Checkout.CheckoutScript@2aceadd4]" started-at="2026-10-19T09:50:46 IST" name="verifyShippingMethod" finished-at="2026-10-19T09:51:03 IST" duration-ms="16417" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Saved billing and shipping addresses selected, and shipping method completed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyShippingMethod -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.Checkout.CheckoutScript@2aceadd4]" started-at="2026-10-19T09:51:03 IST" name="tearDown" finished-at="2026-10-19T09:51:03 IST" duration-ms="547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="BaseClass(java.lang.String)[pri:0, instance:DemoWebShop.Checkout.CheckoutScript@2aceadd4]" started-at="2026-10-19T09:51:03 IST" name="BaseClass" finished-at="2026-10-19T09:51:07 IST" duration-ms="3499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method signature="verifyCompleteCheckout()[pri:6, instance:DemoWebShop.Checkout.CheckoutScript@2aceadd4]" started-at="2026-10-19T09:51:07 IST" name="verifyCompleteCheckout" finished-at="2026-10-19T09:51:30 IST" duration-ms="23800" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Thank You page displayed. Order placed successfully using COD.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCompleteCheckout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.Checkout.CheckoutScript@2aceadd4]" started-at="2026-10-19T09:51:30 IST" name="tearDown" finished-at="2026-10-19T09:51:31 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:DemoWebShop.Checkout.CheckoutScript@2aceadd4]" started-at="2026-10-19T09:51:31 IST" name="afterClass" finished-at="2026-10-19T09:51:31 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- DemoWebShop.Checkout.CheckoutScript -->
+      <class name="DemoWebShop.SignupLogin.SignupLoginScript">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:DemoWebShop.SignupLogin.SignupLoginScript@49438269]" started-at="2026-10-19T09:46:02 IST" name="beforeSuite" finished-at="2026-10-19T09:46:02 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:DemoWebShop.SignupLogin.SignupLoginScript@49438269]" started-at="2026-10-19T09:46:02 IST" name="beforeTest" finished-at="2026-10-19T09:46:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:DemoWebShop.SignupLogin.SignupLoginScript@49438269]" started-at="2026-10-19T09:46:02 IST" name="beforeClass" finished-at="2026-10-19T09:46:02 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="BaseClass(java.lang.String)[pri:0, instance:DemoWebShop.SignupLogin.SignupLoginScript@49438269]" started-at="2026-10-19T09:46:02 IST" name="BaseClass" finished-at="2026-10-19T09:46:11 IST" duration-ms="9287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method signature="verifyRegisterPageOpens()[pri:1, instance:DemoWebShop.SignupLogin.SignupLoginScript@49438269]" started-at="2026-10-19T09:46:11 IST" name="verifyRegisterPageOpens" finished-at="2026-10-19T09:46:12 IST" duration-ms="666" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Register page opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterPageOpens -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.SignupLogin.SignupLoginScript@49438269]" started-at="2026-10-19T09:46:12 IST" name="tearDown" finished-at="2026-10-19T09:46:12 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="BaseClass(java.lang.String)[pri:0, instance:DemoWebShop.SignupLogin.SignupLoginScript@49438269]" started-at="2026-10-19T09:46:12 IST" name="BaseClass" finished-at="2026-10-19T09:46:17 IST" duration-ms="4396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method signature="validRegistration()[pri:2, instance:DemoWebShop.SignupLogin.SignupLoginScript@49438269]" started-at="2026-10-19T09:46:17 IST" name="validRegistration" finished-at="2026-10-19T09:46:21 IST" duration-ms="3950" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Registration successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.SignupLogin.SignupLoginScript@49438269]" started-at="2026-10-19T09:46:21 IST" name="tearDown" finished-at="2026-10-19T09:46:21 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="BaseClass(java.lang.String)[pri:0, instance:DemoWebShop.SignupLogin.SignupLoginScript@49438269]" started-at="2026-10-19T09:46:21 IST" name="BaseClass" finished-at="2026-10-19T09:46:24 IST" duration-ms="3434" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method signature="registerWithBlankFields()[pri:3, instance:DemoWebShop.SignupLogin.SignupLoginScript@49438269]" started-at="2026-10-19T09:46:24 IST" name="registerWithBlankFields" finished-at="2026-10-19T09:46:25 IST" duration-ms="905" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Required-field validation displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerWithBlankFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.SignupLogin.SignupLoginScript@49438269]" started-at="2026-10-19T09:46:25 IST" name="tearDown" finished-at="2026-10-19T09:46:25 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="BaseClass(java.lang.String)[pri:0, instance:DemoWebShop.SignupLogin.SignupLoginScript@49438269]" started-at="2026-10-19T09:46:25 IST" name="BaseClass" finished-at="2026-10-19T09:46:29 IST" duration-ms="3802" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method signature="registerWithInvalidEmail()[pri:4, instance:DemoWebShop.SignupLogin.SignupLoginScript@49438269]" started-at="2026-10-19T09:46:29 IST" name="registerWithInvalidEmail" finished-at="2026-10-19T09:46:31 IST" duration-ms="1610" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Invalid email validation displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerWithInvalidEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.SignupLogin.SignupLoginScript@49438269]" started-at="2026-10-19T09:46:31 IST" name="tearDown" finished-at="2026-10-19T09:46:31 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="BaseClass(java.lang.String)[pri:0, instance:DemoWebShop.SignupLogin.SignupLoginScript@49438269]" started-at="2026-10-19T09:46:31 IST" name="BaseClass" finished-at="2026-10-19T09:46:35 IST" duration-ms="3912" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method signature="verifyLoginPageOpens()[pri:5, instance:DemoWebShop.SignupLogin.SignupLoginScript@49438269]" started-at="2026-10-19T09:46:35 IST" name="verifyLoginPageOpens" finished-at="2026-10-19T09:46:35 IST" duration-ms="554" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageOpens -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.SignupLogin.SignupLoginScript@49438269]" started-at="2026-10-19T09:46:35 IST" name="tearDown" finished-at="2026-10-19T09:46:35 IST" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="BaseClass(java.lang.String)[pri:0, instance:DemoWebShop.SignupLogin.SignupLoginScript@49438269]" started-at="2026-10-19T09:46:35 IST" name="BaseClass" finished-at="2026-10-19T09:46:39 IST" duration-ms="4098" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method signature="loginWithRememberMe()[pri:6, instance:DemoWebShop.SignupLogin.SignupLoginScript@49438269]" started-at="2026-10-19T09:46:39 IST" name="loginWithRememberMe" finished-at="2026-10-19T09:46:41 IST" duration-ms="1584" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login with Remember Me successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginWithRememberMe -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.SignupLogin.SignupLoginScript@49438269]" started-at="2026-10-19T09:46:41 IST" name="tearDown" finished-at="2026-10-19T09:46:41 IST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="BaseClass(java.lang.String)[pri:0, instance:DemoWebShop.SignupLogin.SignupLoginScript@49438269]" started-at="2026-10-19T09:46:41 IST" name="BaseClass" finished-at="2026-10-19T09:46:45 IST" duration-ms="3352" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseClass -->
+        <test-method signature="loginWithUnregisteredEmail()[pri:7, instance:DemoWebShop.SignupLogin.SignupLoginScript@49438269]" started-at="2026-10-19T09:46:45 IST" name="loginWithUnregisteredEmail" finished-at="2026-10-19T09:46:46 IST" duration-ms="1489" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Unregistered email validation displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginWithUnregisteredEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DemoWebShop.SignupLogin.SignupLoginScript@49438269]" started-at="2026-10-19T09:46:46 IST" name="tearDown" finished-at="2026-10-19T09:46:46 IST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:DemoWebShop.SignupLogin.SignupLoginScript@49438269]" started-at="2026-10-19T09:46:46 IST" name="afterClass" finished-at="2026-10-19T09:46:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:DemoWebShop.SignupLogin.SignupLoginScript@49438269]" started-at="2026-10-19T09:52:30 IST" name="afterTest" finished-at="2026-10-19T09:52:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:DemoWebShop.SignupLogin.SignupLoginScript@49438269]" started-at="2026-10-19T09:52:30 IST" name="afterSuite" finished-at="2026-10-19T09:52:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- DemoWebShop.SignupLogin.SignupLoginScript -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test thread-count="5" name="chromeTest">
+  <parameter name = "browser" value = "chrome"/>
+    <classes>
+    <class name="DemoWebShop.SignupLogin.SignupLoginScript"/>
+    <class name="DemoWebShop.Product.ProductScript"/>
+    <class name="DemoWebShop.Wishlist.WishlistScript"/>
+    <class name="DemoWebShop.ShoppingCart.ShoppingCartScript"/>
+    <class name="DemoWebShop.Checkout.CheckoutScript"/>
+    <class name="DemoWebShop.Logout.LogoutScript"/>
+</classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="edgeTest">
+  <parameter name = "browser" value = "edge"/>
+    <classes>
+    <class name="DemoWebShop.SignupLogin.SignupLoginScript"/>
+    <class name="DemoWebShop.Product.ProductScript"/>
+    <class name="DemoWebShop.Wishlist.WishlistScript"/>
+    <class name="DemoWebShop.ShoppingCart.ShoppingCartScript"/>
+    <class name="DemoWebShop.Checkout.CheckoutScript"/>
+    <class name="DemoWebShop.Logout.LogoutScript"/>
+</classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="firefoxTest">
+  <parameter name = "browser" value = "firefox"/>
+    <classes>
+    <class name="DemoWebShop.SignupLogin.SignupLoginScript"/>
+    <class name="DemoWebShop.Product.ProductScript"/>
+    <class name="DemoWebShop.Wishlist.WishlistScript"/>
+    <class name="DemoWebShop.ShoppingCart.ShoppingCartScript"/>
+    <class name="DemoWebShop.Checkout.CheckoutScript"/>
+    <class name="DemoWebShop.Logout.LogoutScript"/>
+</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
