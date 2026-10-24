@@ -74,7 +74,7 @@ public class WishlistScript extends Baseclass {
     }
 
     // TC-WISH-12: Access wishlist without login
-    @Test(priority = 3, groups = "negative")
+    @Test(priority = 3, groups = "functional")
     public void verifyWishlistWithoutLogin() throws Exception {
         driver.get("https://demowebshop.tricentis.com/logout");
         driver.get("https://demowebshop.tricentis.com/wishlist");

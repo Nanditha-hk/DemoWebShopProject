@@ -64,7 +64,7 @@ public class LogoutScript extends Baseclass {
     }
 
     // TC-LOGOUT-10: Verify session ends after logout
-    @Test(priority = 4, groups = "negative")
+    @Test(priority = 4, groups = "functional")
     public void verifySessionEnds() throws Exception {
         loginToApplication();
         LogoutPage logout = new LogoutPage(driver);
@@ -77,7 +77,7 @@ public class LogoutScript extends Baseclass {
     }
 
     // TC-LOGOUT-11: Browser Back after logout
-    @Test(priority = 5, groups = "negative")
+    @Test(priority = 5, groups = "functional")
     public void browserBackAfterLogout() throws Exception {
         loginToApplication();
         LogoutPage logout = new LogoutPage(driver);

@@ -56,22 +56,20 @@ public class Baseclass {
             options.addArguments("--disable-extensions");
             options.setPageLoadStrategy(PageLoadStrategy.EAGER);
             driver = new ChromeDriver(options);
-        } else if (browser.equalsIgnoreCase("edge")) {
+        } 
+        else if (browser.equalsIgnoreCase("edge")) {
             driver = new EdgeDriver();
-        } else if (browser.equalsIgnoreCase("firefox")) {
+        } 
+        else if (browser.equalsIgnoreCase("firefox")) {
             driver = new FirefoxDriver();
-        } else {
-            throw new IllegalArgumentException(
-                "Unsupported browser: " + browser
-            );
+        } 
+        else {
+            throw new IllegalArgumentException("Unsupported browser: " + browser);
         }
 
         driver.manage().window().maximize();
-        driver.manage().timeouts()
-              .implicitlyWait(Duration.ofSeconds(3));
-        driver.manage().timeouts()
-              .pageLoadTimeout(Duration.ofSeconds(60));
-
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(60));
         driver.get(url);
     }
 

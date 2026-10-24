@@ -87,7 +87,7 @@ public class CheckoutScript extends Baseclass {
     }
 
  // TC-CHK-06: Verify blank billing details
-    @Test(priority = 3, groups = "negative")
+    @Test(priority = 3, groups = "functional")
     public void verifyBlankBilling() throws Exception {
         openCheckout(4);
         checkout.selectNewBillingAddress();
@@ -103,7 +103,7 @@ public class CheckoutScript extends Baseclass {
 
 
     // TC-CHK-07: Verify invalid email
-    @Test(priority = 4, groups = "negative")
+    @Test(priority = 4, groups = "functional")
     public void verifyInvalidEmail() throws Exception {
         openCheckout(5);
         enterBillingDetails(5);
@@ -112,6 +112,7 @@ public class CheckoutScript extends Baseclass {
         Assert.assertTrue(checkout.hasBillingValidationError(), "Invalid email validation message was not displayed");
         Reporter.log("Invalid email validation error displayed and screenshot captured successfully", true);
     }
+    
 
     // TC-CHK-09: Verify shipping method using the saved address
     @Test(priority = 5, groups = "functional")
